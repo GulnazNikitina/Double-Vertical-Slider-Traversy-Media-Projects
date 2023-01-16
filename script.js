@@ -29,3 +29,9 @@ const changeSlide = (direction) => {
     slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
     slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
 }
+// trying to add reloud function, need to finish
+// function startOver() {
+//   level = 0;
+//   gamePattern = [];
+//   started = false;
+// }
